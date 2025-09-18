@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Anggota INKAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran Anggota Karate INKAI</h1>
+
+        <section id="biaya">
+            <h2>Biaya Pendaftaran</h2>
+            <p>Pendaftaran: Rp 30.000</p>
+            <p>Baju Karate (Karate Gi) + Sabuk Putih: Rp 200.000</p>
+            <p>Bayar per-datang: 5k</p>
+            <p><strong>Total: Rp 230.000</strong></p>
+        </section>
+
+        <form id="form-pendaftaran">
+            <section id="biodata">
+                <h2>Biodata Diri</h2>
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+
+                <label for="ttl">Tempat, Tanggal Lahir:</label>
+                <input type="text" id="ttl" name="ttl" required><br><br>
+
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="3" required></textarea><br><br>
+
+                <label for="ayah">Nama Ayah:</label>
+                <input type="text" id="ayah" name="ayah" required><br><br>
+
+                <label for="ibu">Nama Ibu:</label>
+                <input type="text" id="ibu" name="ibu" required><br><br>
+
+                <label for="hp">Nomor HP:</label>
+                <input type="tel" id="hp" name="hp" required><br><br>
+
+                <label for="alasan">Alasan Mengikuti Beladiri Karate:</label>
+                <textarea id="alasan" name="alasan" rows="4" required></textarea><br><br>
+
+                <label>Diperbolehkan Mengikuti Karate:</label>
+                <input type="checkbox" id="boleh" name="izin" value="boleh">
+                <label for="boleh">Boleh</label>
+                <input type="checkbox" id="tidakBoleh" name="izin" value="tidakBoleh">
+                <label for="tidakBoleh">Tidak Boleh</label><br><br>
+            </section>
+
+            <button type="submit">Daftar</button>
+        </form>
+
+        <section id="slogan">
+            <h2>Slogan Karate</h2>
+            <p>Salam Karateka... Oshhh!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <a href="https://wa.me/6283186032901" target="_blank">
+                <button>Hubungi via WhatsApp</button>
+            </a>
+        </section>
+
+        <section id="janji">
+            <h2>Janji Karate</h2>
+            <ol>
+                <li>Sanggup memelihara kepribadian.</li>
+                <li>Sanggup patuh pada kejujuran.</li>
+                <li>Sanggup mempertinggi prestasi.</li>
+                <li>Sanggup menjaga sopan santun.</li>
+                <li>Sanggup menguasai diri.</li>
+            </ol>
+        </section>
+
+        <section id="prestasi">
+            <h2>Prestasi</h2>
+            <div class="kotak-prestasi">
+                <ul>
+                    <li>Pernah mengikuti kejuaraan Shureido International 2025</li>
+                    <li>Kejuaraan Kapolri Cup National 2022 dan 2024</li>
+                    <li>Kejuaraan Nasional di Padang 2022</li>
+                    <li>Kejuaraan Open Karate International DIY Yogyakarta 2024</li>
+                    <li>Kejuaraan Karate Open International Kemenpora RI 2022</li>
+                    <li>Kejuaraan Nasional INKAI di Pekanbaru 2022</li>
+                    <li>Lomba O2SN tingkat provinsi 2023 dan 2025</li>
+                    <li>Lomba O2SN tingkat nasional 2023</li>
+                    <li>Pernah mengikuti seleksi Karate Youth League 1 International Championship 2020</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<footer>
+  <p>Rizky Kurniawan</p>
+</footer>
