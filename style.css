@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+#biaya {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#form-pendaftaran label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#form-pendaftaran input[type="text"],
+#form-pendaftaran input[type="tel"],
+#form-pendaftaran textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak mempengaruhi lebar total */
+}
+
+#form-pendaftaran button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form-pendaftaran button:hover {
+    background-color: #0056b3;
+}
+
+#slogan {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact button {
+    background-color: #25d366; /* Warna hijau WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #128c7e;
+}
+
+#janji {
+    margin-top: 20px;
+}
+
+#prestasi {
+    margin-top: 20px;
+}
+
+.kotak-prestasi {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kotak-prestasi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#footer {
+   text-align: center;
+   font: italic;
+   background: #128c7e;
+   border-radius: 20px;
+}
